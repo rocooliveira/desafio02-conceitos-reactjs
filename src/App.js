@@ -19,7 +19,7 @@ function App() {
     const response = await api.post('repositories', {
       title: `repo ${Date.now()}`,
       url: "https://github.com/novo-repo-git",
-      techs: ["tag5", "tag5"]
+      techs: ["tag5", "tag6"]
     });
 
     const repo = response.data;
